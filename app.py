@@ -1,6 +1,5 @@
 from calc_function import do_addition , do_subtraction ,do_multiplication ,do_divison
 from expo import do_exponation
-from area import find_area_rectangle
 
 def main():
     print("Welcome to the Calculator APP")
@@ -29,9 +28,6 @@ def main():
     
     elif user_input == "5":
         result = do_exponation(a,b)
-    
-    elif user_input =="6":
-        result = find_area_rectangle(a,b)
 
     print("Result",result)
 
